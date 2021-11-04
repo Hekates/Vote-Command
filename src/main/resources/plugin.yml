@@ -1,0 +1,16 @@
+name: VoteCommand
+version: '${project.version}'
+main: de.waterdropmc.vote.Vote
+api-version: 1.8
+authors: [ Hekates ]
+description: /vote command
+
+commands:
+  vote:
+    permission: "vote.use"
+
+permissions:
+  vote.use:
+    default: op
+
+#Exklusiv für den Waterdropmc server programmiert#
